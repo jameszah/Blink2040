@@ -18,7 +18,7 @@ BigClive SuperComputer with regular leds and a rp2040 and more!
   - subliminal text on first run after reboot
   - some sublimal images, ending in a quick look at it
   - some blank part of matrix,
-  - some floating text following by happy face
+  - some floating text followed by happy face
   - and some clear text at the end
 
   Next step
