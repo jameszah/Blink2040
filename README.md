@@ -34,3 +34,11 @@ BigClive SuperComputer with regular leds and a rp2040 and more!
 
   Buy me a Double Mochaccino half caf, not fat, with extra cream on the side? 
   https://www.buymeacoffee.com/jameszah
+  
+  <h2> Hardware </h2>
+  
+  ...
+  
+  <h2> Software Installation </h2>
+  
+...
