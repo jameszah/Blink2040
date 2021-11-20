@@ -3,7 +3,11 @@ BigClive SuperComputer with regular leds and a rp2040 and more!
 
  Blink2040
 
-  Software version of the BigClive SuperComputer
+  Software version of the BigClive SuperComputer  
+  
+  (clink the image below to see a 90 second cycle from youtube  
+  -- you can speed it up to get the entire 90 seconds as the patterns change)
+  
 
 [![Click to see on Youtube](http://img.youtube.com/vi/MWLixb5pZDI/hqdefault.jpg)](http://www.youtube.com/watch?v=MWLixb5pZDI "Blink2040 from Youtube")
 
