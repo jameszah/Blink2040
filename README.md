@@ -5,6 +5,8 @@ BigClive SuperComputer with regular leds and a rp2040 and more!
 
   Software version of the BigClive SuperComputer
 
+[![Click to see on Youtube](http://img.youtube.com/vi/MWLixb5pZDI/hqdefault.jpg)](http://www.youtube.com/watch?v=MWLixb5pZDI "Blink2040 from Youtube")
+
   This basically blinks a 10x8 matrix of normal leds, using a rp2040, but lets you change the blink frequency,
   and add shapes, and sublimal text of regular text to the display.
 
