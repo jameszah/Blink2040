@@ -32,7 +32,7 @@ BigClive SuperComputer with regular leds and a rp2040 and more!
   by James Zahary  Nov 17, 2021
   jamzah.plc@gmail.com
 
-  Buy me a Double Mochaccino half caf, not fat, with extra cream on the side? 
+  Buy me a Double Mochaccino half caf, non fat, with extra cream on the side? 
   https://www.buymeacoffee.com/jameszah
   
   <h2> Hardware </h2>
