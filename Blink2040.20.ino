@@ -39,7 +39,7 @@
   Sketch uses 63032 bytes (3%) of program storage space. Maximum is 2093056 bytes.
   Global variables use 15196 bytes (5%) of dynamic memory, leaving 246948 bytes for local variables. Maximum is 262144 bytes.
 
-  Update Nov 26, 2021 - v20 
+  - update Nov 26, 2021 - v20
   - switch to 2 minute cycle
   - add code to run of a usb-powerbank to burn just enough current every 15 second cycle to keep the powerbank alive 
     https://github.com/jameszah/usb-powerbank-keepalive
@@ -545,10 +545,11 @@ void loop() {
 
       Serial.printf("%d, newtouch %d, touch was %d\n", millis(), newtouch, touch);
       touchdebounce = millis();
+      if (touch % 2 == 0){
+        resetRandom();
+      }
     }
-  } else {
-
-  }
+  } 
 
   if (touch % 2 == 0) {
     reg();
@@ -596,7 +597,7 @@ void loop() {
         f_clive();
         break;
       case 4:
-        if (start > 23500) {
+        if (start > 25000) {
           Serial.printf("%d normal and reset\n", millis());
           resetRandomZero();
           phase = 5;
@@ -617,7 +618,7 @@ void loop() {
         }
         break;
       case 6:
-        if (start > 36500) {
+        if (start > 37000) {
           Serial.printf("%d smile b \n", millis());
           phase = 7;
         }
@@ -638,52 +639,7 @@ void loop() {
           reg();
         }
         break;
-      /*
-        case 6:
-        if (start > 36000) {
-        Serial.printf("%d E \n", millis());
-        phase = 7;
-        }
-        if (loopcount % 6  > 0) {
-        f_beerB();
-        } else {
-        reg();
-        }
-        break;
-        case 7:
-        if (start > 37000) {
-        Serial.printf("%d E \n", millis());
-        phase = 8;
-        }
-        if (loopcount % 6 > 0) {
-        f_beerE1();
-        } else {
-        reg();
-        }
-        break;
-        case 8:
-        if (start > 38000) {
-        Serial.printf("%d R \n", millis());
-        phase = 9;
-        }
-        if (loopcount % 6  > 0) {
-        f_beerE2();
-        } else {
-        reg();
-        }
-        break;
-        case 9:
-        if (start > 39000) {
-        Serial.printf("%d smile \n", millis());
-        phase = 10;
-        }
-        if (loopcount % 6  > 0) {
-        f_beerR();
-        } else {
-        reg();
-        }
-        break;
-      */
+
       case 10:
         if (start > 42000) {
           Serial.printf("%d normal \n", millis());
