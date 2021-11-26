@@ -32,6 +32,14 @@ BigClive SuperComputer with regular leds and a rp2040 and more!
   by James Zahary  Nov 17, 2021
   jamzah.plc@gmail.com
 
+Update Nov 26, 2021 - v20 
+  - switch to 2 minute cycle
+  - add code to run of a usb-powerbank to burn just enough current every 15 second cycle to keep the powerbank alive 
+    https://github.com/jameszah/usb-powerbank-keepalive
+  - add a poteniometer to change the blink frquency
+  - add a capacitive touch switch to shut off the subliminal messages and just to the "supercomputer" blinking
+  - change the patterns a little -- more faces, less beer
+  
   Buy me a Double Mochaccino half caf, non fat, with extra cream on the side? 
   https://www.buymeacoffee.com/jameszah
   
