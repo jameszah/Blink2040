@@ -39,7 +39,7 @@
   Sketch uses 63032 bytes (3%) of program storage space. Maximum is 2093056 bytes.
   Global variables use 15196 bytes (5%) of dynamic memory, leaving 246948 bytes for local variables. Maximum is 262144 bytes.
 
-  - update Nov 26, 2021 - v20
+  Update Nov 26, 2021 - v20
   - switch to 2 minute cycle
   - add code to run of a usb-powerbank to burn just enough current every 15 second cycle to keep the powerbank alive 
     https://github.com/jameszah/usb-powerbank-keepalive
