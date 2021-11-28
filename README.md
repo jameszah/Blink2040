@@ -26,8 +26,11 @@ Nov 17, 2021 - v16
   - some floating text followed by happy face
   - and some clear text at the end
   - potentiometer to change blink frequency
-  - disable subliminal message and shapes and return to simple blink supercomputer
-
+  - touch sensor to disable subliminal message and shapes and return to simple blink supercomputer
+  - add code to run off a usb-powerbank to burn just enough current every 15 second cycle to keep the powerbank alive 
+    https://github.com/jameszah/usb-powerbank-keepalive
+  - change the patterns a little -- more faces, less beer
+  
 Next Step:  John Conway's Game of Life
 
   https://github.com/jameszah/Blink2040 is licensed under the
@@ -35,13 +38,6 @@ Next Step:  John Conway's Game of Life
 
   by James Zahary  Nov 17, 2021
   jamzah.plc@gmail.com
-
-  - switch to 2 minute cycle
-  - add code to run of a usb-powerbank to burn just enough current every 15 second cycle to keep the powerbank alive 
-    https://github.com/jameszah/usb-powerbank-keepalive
-  - add a poteniometer to change the blink frquency
-  - add a capacitive touch switch to shut off the subliminal messages and just to the "supercomputer" blinking
-  - change the patterns a little -- more faces, less beer
   
   Buy me a Double Mochaccino half caf, non fat, with extra cream on the side? 
   https://www.buymeacoffee.com/jameszah
